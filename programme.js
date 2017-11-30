@@ -1,4 +1,4 @@
-//verifier que le document HTML(DOM) est complètement chargé
+//verifier que le document HTML(DOM) est complètement chargé avant de demarrer
 $(document).ready(function(){
 	//tools
 	var vraiFaux = true;
