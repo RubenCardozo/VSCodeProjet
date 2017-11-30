@@ -24,7 +24,7 @@ $(document).ready(function(){
 	//changer la couleur du body
 	$("#tools div").click(function(){
 	//recupérer la couleur de l'élément cliqué (this)'
-		var couleur = $(this).("background-color");
+		var couleur = $(this).css("background-color");
 	//attribuer la couleur récupérée à body
 		$("body").css("background-color",couleur);
 	});
